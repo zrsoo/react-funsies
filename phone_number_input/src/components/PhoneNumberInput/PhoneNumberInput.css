@@ -1,7 +1,23 @@
 .PhoneNumberDiv {
 	background-color: #282c34;
 	color: white;
-	min-height: 50vh;
+	min-height: 10vh;
+	min-width: 30vh;
 	display: flex;
 	flex-direction: column;
+	border-style: solid;
+	border-radius: 10%;
+	border-color: aqua;
+	margin: auto;
+}
+
+.PhoneNumberLabel {
+	font-size: medium;
+	color: aqua;
+}
+
+.PhoneNumberInput {
+	margin: auto;
+	border: 2px solid;
+	border-radius: 10px;
 }
