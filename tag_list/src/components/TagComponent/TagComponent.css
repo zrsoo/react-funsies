@@ -1,0 +1,6 @@
+.TagSpan{
+	border: 2px solid aqua;
+	background-color: purple;
+	display: flex;
+	flex-direction: row;
+}
