@@ -1,7 +1,7 @@
 import assert from "assert";
 
-describe('Mock test', () => {
-    test('Mock test', () => {
+describe('Integration tests for component', () => {
+    test('asd', () => {
         assert(true);
     })
 })

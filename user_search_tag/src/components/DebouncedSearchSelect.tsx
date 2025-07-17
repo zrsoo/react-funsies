@@ -19,7 +19,7 @@ const DebouncedSearchSelect = ({ onChange } : DebouncedSearchSelectProps) => {
 	}
 
 	const handleUserClick = (user: User) => {
-		if(!selectedUsers.find(u => u.id == user.id))
+		if(!selectedUsers.find(u => u.id === user.id))
 		{
 			const newSelectedUsers = [...selectedUsers, user];
 			setSelectedUsers(newSelectedUsers);
